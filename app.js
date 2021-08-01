@@ -55,10 +55,10 @@ function handleRangeChange(event){
 function handleModeClick() {
     if (filling === true) {
         filling = false;
-        mode.innerText = "Fill"
+        mode.innerText = "Paint"
     } else {
         filling = true;
-        mode.innerText = "Paint"
+        mode.innerText = "Fill"
     }
 }
 
